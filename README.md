@@ -40,6 +40,8 @@ year2 <- substring(year, 1, 4)
 hist(刊行年)
 
 ```
+![image](https://user-images.githubusercontent.com/54834814/113382490-889c2000-93bc-11eb-9bbe-f66f3a5beae4.png)
+
 
 
 ```{r}
@@ -66,6 +68,8 @@ p1 <- ggplot(since2001year, aes(年))+
 p2 <- p1 + scale_x_continuous(breaks = seq(2001, 2015, by = 4))
 plot(p2)
 ```
+![image](https://user-images.githubusercontent.com/54834814/113382525-9ea9e080-93bc-11eb-9d63-3d4458cfbd3b.png)
+
 
 
 #刊行物としての遺跡地図の刊行と、インターネット公開の推移,figure6
@@ -92,6 +96,7 @@ q2 <- ggplot(since1995year, aes(年))+
 
 plot(q2)
 ```
+![image](https://user-images.githubusercontent.com/54834814/113382538-a8cbdf00-93bc-11eb-99bf-e8d768c2f5ee.png)
 
 
 
@@ -110,3 +115,5 @@ ex_p1 <- ggplot(excavation, aes(Year))+
 
 plot(ex_p1)
 ```
+
+![image](https://user-images.githubusercontent.com/54834814/113382550-b1241a00-93bc-11eb-9a2f-9b80f27c55ee.png)
